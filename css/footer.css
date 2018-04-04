@@ -1,0 +1,334 @@
+
+/*----------------------------------
+41 - Footer
+----------------------------------*/
+.footer-wrap {
+    background: #f8fafc;
+    border-top: 1px solid #e0e4f6;
+}
+.footer-top .container {
+    border-bottom: 1px solid #e0e4f6;
+    padding-bottom: 20px;
+}
+.companyinfo {
+    width: 16.66666667%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    color: #acadae;
+    font-size: 12px;
+    font-weight: 300;
+}
+.companyinfo a:hover {
+    text-decoration: none;
+    color: #acadae;
+}
+.companyinfo img {
+    display: block;
+    margin: 0 0 9px;
+}
+.companyinfo p {
+    margin: 0;
+    padding: 0;
+}
+.f-block-list {
+    overflow: hidden;
+    width: 58.33333333%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 0 10px;
+}
+.f-block-wrap {
+    padding: 0 15px;
+    width: 25%;
+    float: left;
+}
+.f-block-wrap:nth-child(4n+1) {
+    clear: left;
+}
+.f-block {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.f-block a img {
+    height: 100%;
+    width: 100%;
+}
+.f-block .iframe-img {
+    position: relative;
+    display: block;
+    height: 61px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e4f6;
+    padding: 3px;
+    background: #fff;
+    overflow: hidden;
+}
+.f-block .overlay-icon {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 61px;
+    background: #3a89cf;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 0;
+    display: block;
+    opacity: 0;
+    transition: 200ms;
+}
+.f-block .overlay-icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -18px;
+    margin-left: -18px;
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+}
+.f-block .overlay-icon * {
+    line-height: 1;
+}
+.f-block a:hover .overlay-icon{
+    opacity: 1;
+}
+.f-block .f-info-ttl {
+    color: #373d54;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.f-block p {
+    color: #acadae;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top:0px;
+    line-height: 1.2;
+}
+.f-block-modal {
+    display: none;
+}
+.f-block-modal.f-block-modal-map {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 0;
+    background: #fff;
+}
+.f-block-modal-wrap .f-block-modal.f-block-modal-map {
+    width: 700px;
+    height: 400px;
+}
+.f-block-modal.f-block-modal-map .allstore-gmap {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.f-block-modal-video iframe {
+    width: 853px;
+    height: 480px;
+}
+.f-block-modal.f-block-modal-callback {
+    max-width: 500px;
+    padding: 0;
+}
+.f-block-modal.f-block-modal-content {
+    max-width: 500px;
+    padding: 20px;
+}
+.f-block-modal .f-block-modal-img {
+    display: block;
+    margin: 0 0 18px;
+    border: 1px solid #e0e4f6;
+    padding: 4px;
+}
+.f-block-modal-wrap .fancybox-skin {
+    background: #fff;
+}
+.f-delivery {
+    margin-top: 34px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.f-delivery img {
+    width:auto;
+}
+.f-delivery h1,
+.f-delivery h2,
+.f-delivery h3,
+.f-delivery h4,
+.f-delivery h5,
+.f-delivery h6 {
+    display: block;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 87px;
+    color: #373d54;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0;
+    font-style: italic;
+}
+.f-delivery p {
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 107px;
+    color: #acadae;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+.f-menu-list {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.f-menu-list .f-menu {
+    float: left;
+    width: 18.75%;
+    padding: 0 15px;
+    margin: 0 0 25px;
+}
+.f-menu-list .f-menu h3 {
+    color: #373d54;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.f-menu-list .f-menu ul li a{
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+}
+.f-menu-list .f-menu ul li a i {
+    margin-right: 18px;
+}
+.f-menu-list .f-menu ul li a:hover{
+    background:none;
+    color:#3a89cf;
+}
+.f-menu-list .f-menu ul li a {
+    color: #373d54;
+    background-color: transparent;
+    border-radius: 0;
+}
+.f-menu-list .f-menu ul li a:hover {
+    color: #3a89cf;
+    background-color: transparent;
+}
+.f-menu-list .f-menu ul li.active a {
+    color: #3a89cf;
+}
+.f-subscribe {
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    margin: 0 0 10px;
+}
+.f-subscribe h3 {
+    color: #373d54;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.f-subscribe-form {
+    position: relative;
+}
+.f-subscribe-form input[type=text] {
+    border: 1px solid #e0e4f6;
+    color: #373d54;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 0;
+    outline: none;
+    padding: 7px 50px 7px 12px;
+    width: 100%;
+    max-width: 100%;
+    transition: all 0.2s;
+}
+.f-subscribe-form input[type=text]:focus {
+    border-color: #d1d5e5;
+}
+.f-subscribe-form input[type=text]::-webkit-input-placeholder {
+    color: #c7cbdc;
+}
+.f-subscribe-form input[type=text]::-moz-placeholder {
+    color: #c7cbdc;
+    opacity: 1;
+}
+.f-subscribe-form input[type=text]:-ms-input-placeholder {
+    color: #c7cbdc;
+}
+.f-subscribe-form button {
+    background: #313b54;
+    border: none;
+    border-radius: 0;
+    line-height: 1;
+    padding: 7px 17px 8px;
+    transition: all 0.2s;
+    color: #fff;
+    height: 35px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.f-subscribe-form button i {
+    font-size: 14px;
+}
+.f-subscribe-form button:hover,
+.f-subscribe-form button:focus {
+    background:#404d6e;
+    color: #fff;
+}
+.f-subscribe p {
+    margin-top: 13px;
+    color: #acadae;
+    font-size: 12px;
+    font-weight: 300;
+}
+.footer-bottom {
+    background: #eff1fa;
+    border-top: 1px solid #e0e4f6;
+}
+.footer-bottom p {
+    color: #373d54;
+    font-size: 14px;
+}
+.footer-bottom p span a {
+    color: #28a906;
+    font-style: italic;
+    text-decoration: underline;
+}
+.footer-copyright {
+    margin: 10px 0 0 15px;
+    float: left;
+}
+.footer-bottom #bx-composite-banner {
+    text-align: center;
+    margin: 5px 0;
+}
+/*----------------------------------
+41 - Footer
+----------------------------------*/

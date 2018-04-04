@@ -1,0 +1,33 @@
+.content-message{
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.btn-no{
+  margin-left: 305px;
+  width: 50px;
+}
+
+.second-ttl{
+  width: 150px;
+}
+
+.about{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.my-form{
+  padding: 30px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border: 1px;
+  border-style: groove;
+}
+
+.paragraph{
+  margin-top: 20px;
+}

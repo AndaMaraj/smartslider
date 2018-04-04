@@ -1,0 +1,496 @@
+
+
+/*----------------------------------
+44 - Auth
+----------------------------------*/
+.auth-wrap {
+    overflow: hidden;
+}
+.auth-wrap .auth-col {
+    width: 46%;
+    margin: 0 8% 0 0;
+    float: left;
+}
+.auth-wrap .auth-col:nth-child(2n) {
+    margin-right: 0;
+}
+.auth-wrap .auth-col h2 {
+    font-size: 22px;
+    margin: 0 0 25px 20%;
+}
+.auth-wrap .auth-col p {
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+.auth-wrap .auth-col .required {
+    color: red;
+}
+.auth-wrap .auth-col p a {
+    line-height: 1;
+    display: inline-block;
+}
+.auth-wrap .auth-col .auth-lost_password {
+    padding: 0 0 0 20%;
+}
+.auth-wrap .auth-col label {
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.auth-wrap .auth-col input[type=email],
+.auth-wrap .auth-col input[type=password],
+.auth-wrap .auth-col input[type=text] {
+    padding: 0 15px;
+    color: #373d54;
+    background: #f8fafc;
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #e0e4f6;
+    transition: all 0.2s;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    width: 80%;
+}
+.auth-wrap .auth-col input[type=submit] {
+    margin: 0 0 0 20%;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+.auth-wrap .auth-submit {
+    position: relative;
+    margin: 0px 0 23px;
+}
+.auth-wrap .auth-submit input[type=checkbox] {
+    display: none;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label {
+    padding: 2px 25px 0 0;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.2s;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    margin: -10px 0 0;
+    right: 0;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label:hover {
+    color: #3a89cf;
+}
+.auth-wrap .auth-submit input[type=checkbox] + label:after {
+    content: "\f00c";
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin: -7px 0 0;
+    right: 0;
+    border: 2px solid #8890af;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 8px;
+    padding: 0 0 0 1px;
+    text-align: center;
+    font-family: FontAwesome;
+    line-height: 10px;
+}
+.auth-wrap .auth-submit input[type=checkbox]:checked + label:after {
+    border-color: #5f6680;
+    background-color: #5f6680;
+}
+.auth-wrap .auth-register {
+
+}
+/*----------------------------------
+44 - Auth
+----------------------------------*/
+
+
+/*----------------------------------
+4 - Stylization
+----------------------------------*/
+.maincont {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.maincont:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.stylization {
+    line-height: 1.7;
+    font-size: 14px;
+    color: #616161;
+}
+.stylization:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+.stylization p {
+    line-height: 1.7;
+    margin: 0 0 30px;
+}
+.stylization h1,
+.stylization h2,
+.stylization h3,
+.stylization h4,
+.stylization h5,
+.stylization h6 {
+    color: #373d54;
+    margin: 0 0 30px;
+}
+.stylization h1 {
+    font-size: 35px;
+}
+.stylization h2 {
+    font-size: 28px;
+}
+.stylization h3 {
+    font-size: 24px;
+}
+.stylization h4 {
+    font-size: 21px;
+}
+.stylization h5 {
+    font-size: 18px;
+}
+.stylization h6 {
+    font-size: 16px;
+}
+.stylization a {
+    color: #3a89cf;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-bottom: 1px solid transparent;
+}
+.stylization a:hover {
+    text-decoration: none;
+    border-color: #3a89cf;
+}
+.stylization strong,
+.stylization b {
+    color: #373d54;
+}
+.stylization ul {
+    margin: 0 0 30px 18px;
+    padding: 0;
+}
+.stylization ul > li {
+    list-style-image: url("../img/chk1.png");
+}
+.stylization li {
+    padding: 0;
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+.stylization li > ul {
+    margin: 0 0 0 18px;
+}
+.stylization ol {
+    list-style-type: decimal;
+    margin: 0 0 30px 18px;
+    padding: 0;
+}
+.stylization ol li {
+    position: relative;
+}
+.stylization li > ol {
+    margin: 0 0 0 18px;
+}
+.stylization address {
+    margin: 0 0 30px;
+    line-height: 1.7;
+}
+.stylization code {
+    background-color: #e8e8e8;
+    padding: 2px 4px;
+    color: #373d54;
+    font-family: Inconsolata, monospace;
+}
+.stylization pre {
+    background: #f8fafc;
+    border: 1px solid #c4d8ec;
+    font-size: 16px;
+    line-height: 1.42857143;
+    margin: 0 0 34px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Inconsolata, monospace;
+    color: #373d54;
+}
+.stylization mark,
+.stylization ins {
+    background: #3a89cf;
+    color: #fff;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+.stylization sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.stylization sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+.stylization blockquote {
+    padding: 26px 40px 10px;
+    margin: 0 auto 34px;
+    overflow: hidden;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    max-width: 800px;
+    position: relative;
+    line-height: 1.7;
+}
+.stylization blockquote:before {
+    position: absolute;
+    content: '';
+    top: 3px;
+    height: 3px;
+    border-top: 1px solid #3a89cf;
+    border-bottom: 1px solid #3a89cf;
+    left: 50%;
+    width: 40px;
+    margin: 0 0 0 -20px;
+    display: block;
+}
+.stylization blockquote:after {
+    position: absolute;
+    content: '';
+    bottom: 3px;
+    height: 3px;
+    border-top: 1px solid #3a89cf;
+    border-bottom: 1px solid #3a89cf;
+    left: 50%;
+    width: 40px;
+    margin: 0 0 0 -20px;
+    display: block;
+}
+.stylization blockquote p {
+    margin-bottom: 20px !important;
+    color: #373d54;
+}
+.stylization cite {
+    font-style: italic;
+    color: #373d54;
+    font-weight: 700;
+}
+.stylization dl {
+    margin: 0 0 30px;
+    line-height: 1.7;
+}
+.stylization dt {
+    font-weight: 700;
+    color: #373d54;
+    line-height: 1.7;
+}
+.stylization dd {
+    margin: 0 0 30px;
+    line-height: 1.7;
+}
+.stylization table,
+.stylization th,
+.stylization td {
+    border: 1px solid #c4d8ec;
+    line-height: 1.7;
+}
+.stylization table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 34px;
+    table-layout: fixed;
+    width: 100%;
+    color: #373d54;
+    border-radius: 3px;
+}
+.stylization caption,
+.stylization th,
+.stylization td {
+    font-weight: normal;
+    text-align: left;
+}
+.stylization th {
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+}
+.stylization td {
+    border-width: 0 1px 1px 0;
+}
+.stylization th,
+.stylization td {
+    padding: 10px 15px;
+}
+.stylization legend {
+    line-height: 1.7;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+}
+.stylization .wpcf7 span.wpcf7-not-valid-tip {
+    display: none;
+}
+.stylization .wpcf7 div.wpcf7-response-output {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.stylization .wpcf7 div.wpcf7-response-output.wpcf7-validation-errors {
+    display: none !important;
+}
+.stylization input[type=email],
+.stylization input[type=tel],
+.stylization input[type=search],
+.stylization input[type=password],
+.stylization input[type=text] {
+    display: block;
+    padding: 0 15px;
+    color: #373d54;
+    width: 100%;
+    background: #f8fafc;
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #e0e4f6;
+    transition: all 0.2s;
+}
+.stylization input[type=email]:focus,
+.stylization input[type=tel]:focus,
+.stylization input[type=search]:focus,
+.stylization input[type=password]:focus,
+.stylization input[type=text]:focus {
+    border-color: #bfcedc;
+}
+.stylization input[type=search]::-webkit-input-placeholder,
+.stylization input[type=password]::-webkit-input-placeholder,
+.stylization input[type=tel]::-webkit-input-placeholder,
+.stylization input[type=email]::-webkit-input-placeholder,
+.stylization input[type=text]::-webkit-input-placeholder {
+    color: #a0b0c1;
+}
+.stylization input[type=search]::-moz-placeholder,
+.stylization input[type=password]::-moz-placeholder,
+.stylization input[type=tel]::-moz-placeholder,
+.stylization input[type=email]::-moz-placeholder,
+.stylization input[type=text]::-moz-placeholder {
+    color: #a0b0c1;
+    opacity: 1;
+}
+.stylization input[type=search]:-ms-input-placeholder,
+.stylization input[type=password]:-ms-input-placeholder,
+.stylization input[type=tel]:-ms-input-placeholder,
+.stylization input[type=email]:-ms-input-placeholder,
+.stylization input[type=text]:-ms-input-placeholder {
+    color: #a0b0c1;
+}
+.stylization textarea {
+    display: block;
+    padding: 12px 15px;
+    background: #f8fafc;
+    color: #373d54;
+    width: 100%;
+    font-size: 14px;
+    height: 150px;
+    border: 1px solid #e0e4f6;
+    transition: all 0.2s;
+}
+.stylization textarea:focus {
+    border-color: #bfcedc;
+}
+.stylization textarea::-webkit-input-placeholder {
+    color: #a0b0c1;
+}
+.stylization textarea::-moz-placeholder {
+    color: #a0b0c1;
+    opacity: 1;
+}
+.stylization textarea:-ms-input-placeholder {
+    color: #a0b0c1;
+}
+.stylization button,
+.stylization input[type=submit] {
+    display: block;
+    border: none;
+    transition: all 0.2s;
+    font-weight: 500;
+    background: #373d54;
+    padding: 10px 35px;
+    color: #ffffff;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.stylization button:hover,
+.stylization input[type=submit]:hover {
+    background: #474f6e;
+}
+.align-center {
+    text-align: center;
+}
+.main-ttl {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #373d54;
+    margin: 0 0 35px;
+    font-weight: 900;
+    position: relative;
+    letter-spacing: 2px;
+}
+h1.main-ttl {
+    font-size: 22px;
+    margin: 0 0 35px;
+}
+.main-ttl span {
+    position: relative;
+    display: inline-block;
+    padding: 0 0 8px;
+}
+.main-ttl span:before {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    right: 0;
+    background: #f8fafc;
+}
+.main-ttl span:after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    width: 60px;
+    background: #373d54;
+}
+.maincont-ct .main-ttl {
+    text-align: center;
+}
+.maincont-ct .main-ttl span:after {
+    left: 50%;
+    margin: 0 0 0 -30px;
+}
+/*----------------------------------
+4 - Stylization
+----------------------------------*/
